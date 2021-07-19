@@ -34,7 +34,7 @@ location = '/content/drive/MyDrive/14,15 추천컨퍼런스/'
 img_dir = location+'img_final'
 dir_weight = location + '최종_0706_emb_total_model_light9_0.001_10.pth'
 
-df = pd.read_csv(location+'final_df_link.csv')
+df = pd.read_csv(location+'final_df_link_j.csv')
 embeddings = []
 
 transform = transforms.Compose([
