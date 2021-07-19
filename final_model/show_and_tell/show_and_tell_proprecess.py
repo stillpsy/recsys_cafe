@@ -32,7 +32,7 @@ device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 print(device)
 
 
-review = pd.read_csv('/content/drive/MyDrive/14,15 추천컨퍼런스/final_model_file/final_df_link.csv', encoding='UTF-8')
+review = pd.read_csv('/content/drive/MyDrive/14,15 추천컨퍼런스/final_model_file/final_df_link_j.csv', encoding='UTF-8')
 img_dir= '/content/drive/MyDrive/14,15 추천컨퍼런스/img_final'
 model_dir = "/content/drive/MyDrive/14,15 추천컨퍼런스/"
 kor_vec_name= "embedding_final_1"
