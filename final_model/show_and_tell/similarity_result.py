@@ -23,7 +23,7 @@ from tag_dataloader import *
 
 location = '/content/drive/MyDrive/14,15 추천컨퍼런스/'
 concat_pickle= 'tag_review_embeddings_0709.pickle'
-df = pd.read_csv(location+'final_model_file/final_df_link.csv')
+df = pd.read_csv(location+'final_model_file/final_df_link_j.csv')
 
 transform = transforms.Compose(
   [transforms.ToTensor(), # 텐서로 변형
